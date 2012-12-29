@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "32a4u.json"
+    ],
+    "schema=": "part",
+    "name=": "ATxmega32A4U-MH",
+    "package": "QFN44"
+}

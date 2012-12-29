@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "128a1u.json"
+    ],
+    "schema=": "part",
+    "name=": "ATxmega128A1U-CU",
+    "package": "100C1"
+}

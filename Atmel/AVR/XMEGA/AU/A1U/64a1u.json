@@ -1,0 +1,12 @@
+{
+    "includes": [
+        "a1u.json"
+    ],
+    "schema=": "part-family",
+    "name=": "ATxmega64A1U",
+    "parametrics": {
+        "flash": "64KB",
+        "boot-flash": "4KB",
+        "RAM": "4KB"
+    }
+}

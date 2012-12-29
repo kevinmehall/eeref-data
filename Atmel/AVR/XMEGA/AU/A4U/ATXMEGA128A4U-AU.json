@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "128a4u.json"
+    ],
+    "schema=": "part",
+    "name=": "ATxmega128A4U-AU",
+    "package": "TQFP44"
+}

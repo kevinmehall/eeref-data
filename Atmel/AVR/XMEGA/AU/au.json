@@ -1,0 +1,63 @@
+{
+    "schema=": "part-family",
+    "name=": "Xmega",
+    "manufacturer": "Atmel",
+    "type": "microcontroller",
+    "literature": {
+        "manual": {
+            "name": "Atmel AVR XMEGA AU Manual",
+            "url": "http://www.atmel.com/Images/doc8331.pdf",
+            "revision": "C"
+        }
+    },
+    "parametrics": {
+        "core": "AVR8",
+        "EEPROM": "2KB",
+        "speed": "32MHz",
+        "vmin": "1.6V",
+        "vmax": "3.6V"
+    },
+    "peripherals": {
+        "PDI": {
+            "signals": {
+                "PDI_DATA": {
+                    "pins": {
+                        "PDI": ""
+                    }
+                },
+                "PDI_CLOCK": {
+                    "pins": {
+                        "RESET": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pdi": {}
+            }
+        },
+        "power": {
+            "signals": {
+                "AVCC": {
+                    "type": "PWR",
+                    "pins": {
+                        "AVCC": ""
+                    }
+                },
+                "VCC": {
+                    "type": "PWR",
+                    "pins": {
+                        "VCC": "",
+                        "VDD": ""
+                    }
+                },
+                "GND": {
+                    "type": "PWR",
+                    "pins": {
+                        "GND": "",
+                        "VSS": ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "imports": [
+        "64a4u.json"
+    ],
+    "schema=": "part",
+    "name=": "ATxmega64A4U-CU",
+    "package": "BGA49"
+}

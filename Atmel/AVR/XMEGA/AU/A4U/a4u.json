@@ -1,0 +1,885 @@
+{
+    "include": [
+        "../au.json"
+    ],
+    "schema=": "part-family",
+    "name=": "Xmega A4U",
+    "manufacturer": "Atmel",
+    "type": "microcontroller",
+    "literature": {
+        "datasheet": {
+            "name": "ATxmega16A4U/32A4U/64A4U/128A4U Complete",
+            "url": "http://www.atmel.com/Images/doc8387.pdf",
+            "revision": "D"
+        }
+    },
+    "parametrics": {
+        "boot-flash": "4KB"
+    },
+    "packages": {
+        "TQFP44": {
+            "type": "QFP",
+            "count": 44,
+            "pitch": "0.8mm",
+            "pins": {
+                "1": "PA5",
+                "2": "PA6",
+                "3": "PA7",
+                "4": "PB0",
+                "5": "PB1",
+                "6": "PB2",
+                "7": "PB3",
+                "8": "GND",
+                "9": "VCC",
+                "10": "PC0",
+                "11": "PC1",
+                "12": "PC2",
+                "13": "PC3",
+                "14": "PC4",
+                "15": "PC5",
+                "16": "PC6",
+                "17": "PC7",
+                "18": "GND",
+                "19": "VDD",
+                "20": "PD0",
+                "21": "PD1",
+                "22": "PD2",
+                "23": "PD3",
+                "24": "PD4",
+                "25": "PD5",
+                "26": "PD6",
+                "27": "PD7",
+                "28": "PE0",
+                "29": "PE1",
+                "30": "GND",
+                "31": "VCC",
+                "32": "PE2",
+                "33": "PE3",
+                "34": "PDI_DATA",
+                "35": "RESET",
+                "36": "PR0",
+                "37": "PR1",
+                "38": "GND",
+                "39": "AVCC",
+                "40": "PA0",
+                "41": "PA1",
+                "42": "PA2",
+                "43": "PA3",
+                "44": "PA4"
+            }
+        },
+        "QFN44": {
+            "type": "QFN",
+            "count": 44,
+            "pitch": "0.5mm",
+            "pins": {
+                "1": "PA5",
+                "2": "PA6",
+                "3": "PA7",
+                "4": "PB0",
+                "5": "PB1",
+                "6": "PB2",
+                "7": "PB3",
+                "8": "GND",
+                "9": "VCC",
+                "10": "PC0",
+                "11": "PC1",
+                "12": "PC2",
+                "13": "PC3",
+                "14": "PC4",
+                "15": "PC5",
+                "16": "PC6",
+                "17": "PC7",
+                "18": "GND",
+                "19": "VDD",
+                "20": "PD0",
+                "21": "PD1",
+                "22": "PD2",
+                "23": "PD3",
+                "24": "PD4",
+                "25": "PD5",
+                "26": "PD6",
+                "27": "PD7",
+                "28": "PE0",
+                "29": "PE1",
+                "30": "GND",
+                "31": "VCC",
+                "32": "PE2",
+                "33": "PE3",
+                "34": "PDI_DATA",
+                "35": "RESET",
+                "36": "PR0",
+                "37": "PR1",
+                "38": "GND",
+                "39": "AVCC",
+                "40": "PA0",
+                "41": "PA1",
+                "42": "PA2",
+                "43": "PA3",
+                "44": "PA4"
+            }
+        },
+        "BGA49": {
+            "type": "BGA",
+            "count": 49,
+            "pitch": "0.65mm",
+            "pins": {
+                "A1": "PA3",
+                "A2": "AVCC",
+                "A3": "GND",
+                "A4": "PR1",
+                "A5": "PR0",
+                "A6": "PDI_DATA",
+                "A7": "PE3",
+                "B1": "PA4",
+                "B2": "PA1",
+                "B3": "PA0",
+                "B4": "GND",
+                "B5": "RESET",
+                "B6": "PE2",
+                "B7": "VCC",
+                "C1": "PA5",
+                "C2": "PA2",
+                "C3": "PA6",
+                "C4": "PA7",
+                "C5": "GND",
+                "C6": "PE1",
+                "C7": "GND",
+                "D1": "PB1",
+                "D2": "PB2",
+                "D3": "PB3",
+                "D4": "PB0",
+                "D5": "GND",
+                "D6": "PD7",
+                "D7": "PE0",
+                "E1": "GND",
+                "E2": "GND",
+                "E3": "PC3",
+                "E4": "GND",
+                "E5": "PD4",
+                "E6": "PD5",
+                "E7": "PD6",
+                "F1": "VCC",
+                "F2": "PC0",
+                "F3": "PC4",
+                "F4": "PC6",
+                "F5": "PD0",
+                "F6": "PD1",
+                "F7": "PD3",
+                "G1": "PC1",
+                "G2": "PC2",
+                "G3": "PC5",
+                "G4": "PC7",
+                "G5": "GND",
+                "G6": "VCC",
+                "G7": "PD2"
+            }
+        }
+    },
+    "peripherals": {
+        "ADCA": {
+            "signals": {
+                "ADC0": {
+                    "pins": {
+                        "PA0": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "GAINNEG": true
+                    }
+                },
+                "ADC1": {
+                    "pins": {
+                        "PA1": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "GAINNEG": true
+                    }
+                },
+                "ADC2": {
+                    "pins": {
+                        "PA2": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "GAINNEG": true
+                    }
+                },
+                "ADC3": {
+                    "pins": {
+                        "PA3": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "GAINNEG": true
+                    }
+                },
+                "ADC4": {
+                    "pins": {
+                        "PA4": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "POS": true
+                    }
+                },
+                "ADC5": {
+                    "pins": {
+                        "PA5": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "POS": true
+                    }
+                },
+                "ADC6": {
+                    "pins": {
+                        "PA6": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "POS": true
+                    }
+                },
+                "ADC7": {
+                    "pins": {
+                        "PA7": ""
+                    },
+                    "flags": {
+                        "NEG": true,
+                        "POS": true
+                    }
+                },
+                "ADC8": {
+                    "pins": {
+                        "PB0": ""
+                    }
+                },
+                "ADC9": {
+                    "pins": {
+                        "PB1": ""
+                    }
+                },
+                "ADC10": {
+                    "pins": {
+                        "PB2": ""
+                    }
+                },
+                "ADC11": {
+                    "pins": {
+                        "PB3": ""
+                    }
+                }
+            }
+        },
+        "ACA": {
+            "signals": {
+                "AC0": {
+                    "pins": {
+                        "PA0": ""
+                    },
+                    "flags": {
+                        "POS": true,
+                        "NEG": true
+                    }
+                },
+                "AC1": {
+                    "pins": {
+                        "PA1": ""
+                    },
+                    "flags": {
+                        "POS": true,
+                        "NEG": true
+                    }
+                },
+                "AC2": {
+                    "pins": {
+                        "PA2": ""
+                    },
+                    "flags": {
+                        "POS": true
+                    }
+                },
+                "AC3": {
+                    "pins": {
+                        "PA3": ""
+                    },
+                    "flags": {
+                        "POS": true,
+                        "NEG": true
+                    }
+                },
+                "AC4": {
+                    "pins": {
+                        "PA4": ""
+                    },
+                    "flags": {
+                        "POS": true
+                    }
+                },
+                "AC5": {
+                    "pins": {
+                        "PA5": ""
+                    },
+                    "flags": {
+                        "POS": true,
+                        "NEG": true
+                    }
+                },
+                "AC6": {
+                    "pins": {
+                        "PA6": ""
+                    },
+                    "flags": {
+                        "POS": true
+                    }
+                },
+                "AC1OUT": {
+                    "pins": {
+                        "PA6": ""
+                    },
+                    "flags": {
+                        "OUT": true
+                    }
+                },
+                "AC7": {
+                    "pins": {
+                        "PA7": ""
+                    },
+                    "flags": {
+                        "NEG": true
+                    }
+                },
+                "AC0OUT": {
+                    "pins": {
+                        "PA7": ""
+                    },
+                    "flags": {
+                        "OUT": true
+                    }
+                }
+            }
+        },
+        "AREF": {
+            "signals": {
+                "REFA": {
+                    "pins": {
+                        "PA0": ""
+                    }
+                },
+                "REFB": {
+                    "pins": {
+                        "PB0": ""
+                    }
+                }
+            }
+        },
+        "DACB": {
+            "signals": {
+                "DAC0": {
+                    "pins": {
+                        "PB2": ""
+                    }
+                },
+                "DAC1": {
+                    "pins": {
+                        "PB3": ""
+                    }
+                }
+            }
+        },
+        "TCC0": {
+            "signals": {
+                "OC0A": {
+                    "pins": {
+                        "PC0": ""
+                    }
+                },
+                "OC0B": {
+                    "pins": {
+                        "PC1": ""
+                    }
+                },
+                "OC0C": {
+                    "pins": {
+                        "PC2": ""
+                    }
+                },
+                "OC0D": {
+                    "pins": {
+                        "PC3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pwm": {}
+            }
+        },
+        "AWEXC": {
+            "signals": {
+                "OC0ALS": {
+                    "pins": {
+                        "PC0": ""
+                    }
+                },
+                "OC0AHS": {
+                    "pins": {
+                        "PC1": ""
+                    }
+                },
+                "OC0BLS": {
+                    "pins": {
+                        "PC2": ""
+                    }
+                },
+                "OC0BHS": {
+                    "pins": {
+                        "PC3": ""
+                    }
+                },
+                "OC0CLS": {
+                    "pins": {
+                        "PC4": ""
+                    }
+                },
+                "OC0CHS": {
+                    "pins": {
+                        "PC5": ""
+                    }
+                },
+                "OC0DLS": {
+                    "pins": {
+                        "PC6": ""
+                    }
+                },
+                "OC0DHS": {
+                    "pins": {
+                        "PC7": ""
+                    }
+                }
+            }
+        },
+        "TWIC": {
+            "signals": {
+                "SDA": {
+                    "pins": {
+                        "PC0": ""
+                    }
+                },
+                "SCL": {
+                    "pins": {
+                        "PC1": ""
+                    }
+                }
+            },
+            "protocols": {
+                "i2c": {
+                    "roles": {
+                        "slave": true,
+                        "master": true
+                    }
+                }
+            }
+        },
+        "USARTC0": {
+            "signals": {
+                "XCK0": {
+                    "pins": {
+                        "PC1": ""
+                    }
+                },
+                "RXD0": {
+                    "pins": {
+                        "PC2": ""
+                    }
+                },
+                "TXD0": {
+                    "pins": {
+                        "PC3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "async-serial": {
+                    "roles": {
+                        "rx": true,
+                        "tx": true
+                    }
+                },
+                "spi": {
+                    "roles": {
+                        "master": true
+                    }
+                }
+            }
+        },
+        "TCC1": {
+            "signals": {
+                "OC1A": {
+                    "pins": {
+                        "PC4": ""
+                    }
+                },
+                "OC1B": {
+                    "pins": {
+                        "PC5": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pwm": {}
+            }
+        },
+        "SPIC": {
+            "signals": {
+                "SS": {
+                    "pins": {
+                        "PC4": ""
+                    }
+                },
+                "MOSI": {
+                    "pins": {
+                        "PC5": "",
+                        "PC7": "REMAP.SPI=1"
+                    }
+                },
+                "MISO": {
+                    "pins": {
+                        "PC6": ""
+                    }
+                },
+                "SCK": {
+                    "pins": {
+                        "PC7": "",
+                        "PC5": "REMAP.SPI=1"
+                    }
+                }
+            },
+            "protocols": {
+                "spi": {
+                    "roles": {
+                        "slave": true,
+                        "master": true
+                    }
+                }
+            }
+        },
+        "USARTC1": {
+            "signals": {
+                "XCK1": {
+                    "pins": {
+                        "PC5": ""
+                    }
+                },
+                "RXD1": {
+                    "pins": {
+                        "PC6": ""
+                    }
+                },
+                "TXD1": {
+                    "pins": {
+                        "PC7": ""
+                    }
+                }
+            },
+            "protocols": {
+                "async-serial": {
+                    "roles": {
+                        "rx": true,
+                        "tx": true
+                    }
+                },
+                "spi": {
+                    "roles": {
+                        "master": true
+                    }
+                }
+            }
+        },
+        "CLOCK": {
+            "signals": {
+                "clkRTC": {
+                    "pins": {
+                        "PC6": ""
+                    }
+                },
+                "clkPER": {
+                    "pins": {
+                        "PC7": "",
+                        "PD7": ""
+                    }
+                },
+                "XTAL2": {
+                    "pins": {
+                        "PRO": ""
+                    }
+                },
+                "TOSC2": {
+                    "pins": {
+                        "PRO": ""
+                    }
+                },
+                "XTAL1": {
+                    "pins": {
+                        "PR1": ""
+                    }
+                },
+                "TOSC1": {
+                    "pins": {
+                        "PR1": ""
+                    }
+                }
+            }
+        },
+        "EVSYS": {
+            "signals": {
+                "EVOUT": {
+                    "pins": {
+                        "PC7": "",
+                        "PD7": "",
+                        "PC4": "CLKEVPIN=1",
+                        "PD4": "CLKEVPIN=1"
+                    }
+                }
+            }
+        },
+        "TCD0": {
+            "signals": {
+                "OC0A": {
+                    "pins": {
+                        "PD0": ""
+                    }
+                },
+                "OC0B": {
+                    "pins": {
+                        "PD1": ""
+                    }
+                },
+                "OC0C": {
+                    "pins": {
+                        "PD2": ""
+                    }
+                },
+                "OC0D": {
+                    "pins": {
+                        "PD3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pwm": {}
+            }
+        },
+        "USARTD0": {
+            "signals": {
+                "XCK0": {
+                    "pins": {
+                        "PD1": ""
+                    }
+                },
+                "RXD0": {
+                    "pins": {
+                        "PD2": ""
+                    }
+                },
+                "TXD0": {
+                    "pins": {
+                        "PD3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "async-serial": {
+                    "roles": {
+                        "rx": true,
+                        "tx": true
+                    }
+                },
+                "spi": {
+                    "roles": {
+                        "master": true
+                    }
+                }
+            }
+        },
+        "TCD1": {
+            "signals": {
+                "OC1A": {
+                    "pins": {
+                        "PD4": ""
+                    }
+                },
+                "OC1B": {
+                    "pins": {
+                        "PD5": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pwm": {}
+            }
+        },
+        "SPID": {
+            "signals": {
+                "SS": {
+                    "pins": {
+                        "PD4": ""
+                    }
+                },
+                "MOSI": {
+                    "pins": {
+                        "PD5": "",
+                        "PD7": "REMAP.SPI=1"
+                    }
+                },
+                "MISO": {
+                    "pins": {
+                        "PD6": ""
+                    }
+                },
+                "SCK": {
+                    "pins": {
+                        "PD7": "",
+                        "PD5": "REMAP.SPI=1"
+                    }
+                }
+            },
+            "protocols": {
+                "spi": {
+                    "roles": {
+                        "slave": true,
+                        "master": true
+                    }
+                }
+            }
+        },
+        "USARTD1": {
+            "signals": {
+                "XCK1": {
+                    "pins": {
+                        "PD5": ""
+                    }
+                },
+                "RXD1": {
+                    "pins": {
+                        "PD6": ""
+                    }
+                },
+                "TXD1": {
+                    "pins": {
+                        "PD7": ""
+                    }
+                }
+            },
+            "protocols": {
+                "async-serial": {
+                    "roles": {
+                        "rx": true,
+                        "tx": true
+                    }
+                },
+                "spi": {
+                    "roles": {
+                        "master": true
+                    }
+                }
+            }
+        },
+        "USB": {
+            "signals": {
+                "D-": {
+                    "pins": {
+                        "PD6": ""
+                    }
+                },
+                "D+": {
+                    "pins": {
+                        "PD7": ""
+                    }
+                }
+            }
+        },
+        "TCE0": {
+            "signals": {
+                "OC0A": {
+                    "pins": {
+                        "PE0": ""
+                    }
+                },
+                "OC0B": {
+                    "pins": {
+                        "PE1": ""
+                    }
+                },
+                "OC0C": {
+                    "pins": {
+                        "PE2": ""
+                    }
+                },
+                "OC0D": {
+                    "pins": {
+                        "PE3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "pwm": {}
+            }
+        },
+        "TWIE": {
+            "signals": {
+                "SDA": {
+                    "pins": {
+                        "PE0": ""
+                    }
+                },
+                "SCL": {
+                    "pins": {
+                        "PE1": ""
+                    }
+                }
+            },
+            "protocols": {
+                "i2c": {
+                    "roles": {
+                        "slave": true,
+                        "master": true
+                    }
+                }
+            }
+        },
+        "USARTE0": {
+            "signals": {
+                "XCK0": {
+                    "pins": {
+                        "PE1": ""
+                    }
+                },
+                "RXD0": {
+                    "pins": {
+                        "PE2": ""
+                    }
+                },
+                "TXD0": {
+                    "pins": {
+                        "PE3": ""
+                    }
+                }
+            },
+            "protocols": {
+                "async-serial": {
+                    "roles": {
+                        "rx": true,
+                        "tx": true
+                    }
+                },
+                "spi": {
+                    "roles": {
+                        "master": true
+                    }
+                }
+            }
+        }
+    }
+}
