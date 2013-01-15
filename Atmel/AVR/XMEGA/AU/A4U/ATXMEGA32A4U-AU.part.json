@@ -1,6 +1,6 @@
 {
     "includes": [
-        "32a4u.json",
+        "32a4u.family.json",
         "44a.package.json"
     ],
     "schema=": "part",

@@ -1,6 +1,6 @@
 {
     "includes": [
-        "a1u.json"
+        "a1u.family.json"
     ],
     "schema=": "part-family",
     "name=": "ATxmega64A1U",

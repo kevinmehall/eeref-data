@@ -1,6 +1,6 @@
 {
     "includes": [
-        "128a1u.json",
+        "128a1u.family.json",
         "100c1.package.json"
     ],
     "schema=": "part",

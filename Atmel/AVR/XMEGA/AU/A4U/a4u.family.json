@@ -1,6 +1,6 @@
 {
     "includes": [
-        "../au.json"
+        "../au.family.json"
     ],
     "schema=": "part-family",
     "name=": "Xmega A4U",

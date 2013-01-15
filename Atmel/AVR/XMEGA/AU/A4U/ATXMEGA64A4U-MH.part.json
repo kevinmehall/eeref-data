@@ -1,8 +1,8 @@
 {
     "includes": [
-        "16a4u.json",
+        "64a4u.family.json",
         "44m1.package.json"
     ],
     "schema=": "part",
-    "name=": "ATxmega16A4U-MH"
+    "name=": "ATxmega64A4U-MH"
 }
