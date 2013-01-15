@@ -1,8 +1,8 @@
 {
     "includes": [
-        "16a4u.json"
+        "16a4u.json",
+        "49c2.package.json"
     ],
     "schema=": "part",
-    "name=": "ATxmega16A4U-CU",
-    "package": "BGA49"
+    "name=": "ATxmega16A4U-CU"
 }

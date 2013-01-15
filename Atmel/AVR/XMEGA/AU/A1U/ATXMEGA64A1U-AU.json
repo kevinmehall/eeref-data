@@ -1,8 +1,8 @@
 {
     "includes": [
-        "64a1u.json"
+        "64a1u.json",
+        "100A.package.json"
     ],
     "schema=": "part",
-    "name=": "ATxmega64A1U-AU",
-    "package": "100A"
+    "name=": "ATxmega64A1U-AU"
 }

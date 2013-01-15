@@ -1,8 +1,8 @@
 {
     "includes": [
-        "64a4u.json"
+        "64a4u.json",
+        "44m1.package.json"
     ],
     "schema=": "part",
-    "name=": "ATxmega64A4U-MH",
-    "package": "QFN44"
+    "name=": "ATxmega64A4U-MH"
 }
