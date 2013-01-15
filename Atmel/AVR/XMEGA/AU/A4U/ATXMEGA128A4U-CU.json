@@ -1,5 +1,5 @@
 {
-    "imports": [
+    "includes": [
         "128a4u.json"
     ],
     "schema=": "part",

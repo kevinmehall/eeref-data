@@ -1,11 +1,9 @@
 {
-    "include": [
+    "includes": [
         "../au.json"
     ],
     "schema=": "part-family",
     "name=": "Xmega A4U",
-    "manufacturer": "Atmel",
-    "type": "microcontroller",
     "literature": {
         "datasheet": {
             "name": "ATxmega16A4U/32A4U/64A4U/128A4U Complete",

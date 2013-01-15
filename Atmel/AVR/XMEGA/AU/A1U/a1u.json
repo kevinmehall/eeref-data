@@ -4,8 +4,6 @@
     ],
     "schema=": "part-family",
     "name=": "Xmega A1U",
-    "manufacturer": "Atmel",
-    "type": "microcontroller",
     "literature": {
         "datasheet": {
             "name": "ATxmega64A1U/128A1U Complete",
